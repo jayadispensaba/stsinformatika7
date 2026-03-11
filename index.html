@@ -292,7 +292,7 @@
       if (document.hidden && duration > 0 && !document.getElementById('screen-exam').classList.contains('hidden') && !isLocked) {
         cheatCount++; duration -= 10;
         if (cheatCount > 3) triggerPenalty();
-        else alert(`⚠️ Peringatan ke-${cheatCount}: Keluar tab mendeteksi. Waktu -10 detik.`);
+        else alert(`⚠️ Peringatan ke-${cheatCount}: Terdeteksi Kecurangan. Waktu -10 detik.`);
       }
     });
   }
@@ -348,4 +348,5 @@
   }
 </script>
 </body>
+
 </html>
